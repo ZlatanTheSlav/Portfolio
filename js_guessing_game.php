@@ -7,8 +7,14 @@
 	<body>
             
             <p>How many fingers ?</p>
-            
-            <input text="text" id="myNumber">
+        
+                <select name="fingers" id="myNumber">
+                    <option >1</option>
+                    <option >2</option>
+                    <option >3</option>
+                    <option >4</option>
+                    <option >5</option>
+                </select>
             
             <button id="guess">Guess !</button>
         
